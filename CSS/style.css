@@ -102,6 +102,7 @@ body {
 
 body.dark {
     background-color: #292c35;
+    color: #FFFFFF;
 }
 
 body.dark-mode {
