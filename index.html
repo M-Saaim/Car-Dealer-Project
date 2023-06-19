@@ -21,7 +21,7 @@
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
-        <!-- <div>
+        <div>
             <input type="checkbox" class="checkbox" id="checkbox" />
             <label for="checkbox" class="checkbox-label">
                 <i class="fa fa-moon"></i>
@@ -29,6 +29,14 @@
                 <span class="ball"></span>
             </label>
         </div>
+        
+        <input type="checkbox" id="checkbox">
+        <label for="checkbox">
+            <span class="sun">&#9728;</span>
+        </label>
+        
+
+        <!--s
         <button onclick="toggleDarkMode()">
             <label for="checkbox" class="checkbox-label">
                 <i class="fa fa-moon"></i>
@@ -38,9 +46,18 @@
         </button> -->
 
         <body>
-            <button id="toggle-theme">Toggle Theme</button>
+            <button id="toggle-theme" onclick="toggleDarkMode()">Dark Theme</button>
         </body>
     </header>
+
+    <footer>
+        <div class="footer-links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+        <p>&copy; 2023 MyWebsite. All rights reserved.</p>
+    </footer>
 </body>
 
 </html>
