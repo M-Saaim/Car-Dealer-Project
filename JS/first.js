@@ -1,24 +1,33 @@
 //header
-const checkbox = document.getElementById("checkbox");
-checkbox.addEventListener("change", () => {
-  document.body.classList.toggle("dark");
-});
+// const checkbox = document.getElementById("checkbox");
+// checkbox.addEventListener("change", () => {
+//   document.body.classList.toggle("dark");
+// });
 
-function toggleDarkMode() {
-  var body = document.getElementsByTagName("BODY")[0];
-  body.classList.toggle("dark-mode");
-}
-const toggleSwitch = document.querySelector("#toggle-switch");
+// function toggleDarkMode() {
+//   var body = document.getElementsByTagName("BODY")[0];
+//   body.classList.toggle("dark-mode");
+// }
+// const toggleSwitch = document.querySelector("#toggle-switch");
 
-const toggleBtn = document.querySelector('#toggle-theme');
-const body = document.querySelector('body');
+// const toggleBtn = document.querySelector('#toggle-theme');
+// const body = document.querySelector('body');
 
-toggleBtn.addEventListener('click', function() {
-  body.classList.toggle('dark-mode');
-});
+// toggleBtn.addEventListener('click', function() {
+//   body.classList.toggle('dark-mode');
+// });
+
+// joefrance
 
 
-
+let nav = document.querySelector("nav");
+          window.onscroll = function() {
+            if(document.documentElement.scrollTop > 20){
+              nav.classList.add("sticky");
+            }else {
+              nav.classList.remove("sticky");
+            }
+          }
 
 //footer
 

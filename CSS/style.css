@@ -1,4 +1,4 @@
-header
+/* header
 header {
     position: fixed;
     top: 0;
@@ -50,7 +50,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* flex-direction: column; */
+    /* flex-direction: column; 
     text-align: center;
     min-height: 100vh;
     margin: 10;
@@ -117,19 +117,19 @@ body.dark .support a {
 }
 body {
     background-color: #FFFFFF;
-    /* default light mode background color */
+    /* default light mode background color 
 }
 
 body.dark-mode {
     background-color: #232323;
-    /* dark mode background color */
+    /* dark mode background color 
     color: #FFFFFF;
-    /* dark mode text color */
-}
+    /* dark mode text color 
+ }
 
 
 
-/* footer */
+/* footer 
 footer {
     background-color: #333;
     color: #fff;
@@ -145,11 +145,11 @@ footer {
 }
 
 .sun {
-    /* color: #000000; */
-    font-size: 20px; /* adjust the size as needed */
+    /* color: #000000; 
+    font-size: 20px; /* adjust the size as needed 
 }
 
-
+ */
 
 
 /* Joefrance */
@@ -478,7 +478,7 @@ nav{
 }
 nav.sticky{
   padding: 15px 20px;
-  background: #4070f4;
+  background: #00081f;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 nav .nav-content{
@@ -495,7 +495,7 @@ nav .logo a{
   color: #4070f4;
 }
 nav.sticky .logo a{
-  color: #fff;
+  color: #ff7575;
 }
 .nav-content .nav-links{
   display: flex;
@@ -516,28 +516,9 @@ nav.sticky .logo a{
    color: #4070f4;
  }
  nav.sticky .nav-links li a{
-   color: #fff;
+   color: #d43232;
    transition: all 0.4s ease;
 }
  nav.sticky .nav-links li a:hover{
   color: #0E2431;
-}
-.home{
-  height: 100vh;
-  width: 100%;
-  background: url("images/background.png") no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  font-family: 'Ubuntu', sans-serif;
-}
-h2{
-  font-size: 30px;
-  margin-bottom: 6px;
-  color: #4070f4;
-}
-.text{
-  text-align: justify;
-  padding: 40px 80px;
-  box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1);
 }
