@@ -504,7 +504,7 @@ nav.sticky .logo a{
   list-style: none;
   margin: 0 8px;
 }
- .nav-links li a{
+.nav-links li a{
   text-decoration: none;
   color: #0E2431;
   font-size: 18px;
@@ -512,13 +512,13 @@ nav.sticky .logo a{
   padding: 10px 4px;
   transition: all 0.3s ease;
 }
- .nav-links li a:hover{
-   color: #4070f4;
- }
- nav.sticky .nav-links li a{
-   color: #d43232;
-   transition: all 0.4s ease;
+.nav-links li a:hover{
+  color: #4070f4;
 }
- nav.sticky .nav-links li a:hover{
+nav.sticky .nav-links li a{
+  color: #d43232;
+  transition: all 0.4s ease;
+}
+nav.sticky .nav-links li a:hover{
   color: #0E2431;
 }
